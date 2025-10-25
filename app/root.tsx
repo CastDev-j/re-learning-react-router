@@ -9,6 +9,8 @@ import {
 
 import type { Route } from "./+types/root";
 import "./app.css";
+import Header from "./components/shader/header";
+import Footer from "./components/shader/footer";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -29,11 +31,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
         <Meta />
         <Links />
       </head>
-      <body>
-        {children}
+      <body className="bg-neutral-900 flex flex-col justify-between h-screen">
+        <Header />
+        <div className="flex justify-center">{children}</div>
+        <Footer />
         <ScrollRestoration />
         <Scripts />
       </body>

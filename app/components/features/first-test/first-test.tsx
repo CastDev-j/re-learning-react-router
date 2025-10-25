@@ -12,7 +12,7 @@ const FirstTest = () => {
           <p className="text-neutral-300 text-lg">Minimal design approach</p>
         </div>
 
-        <div className="col-span-12 lg:col-span-8 p-8 rounded-2xl shadow-lg">
+        <div className="col-span-12 lg:col-span-8 p-8 rounded-2xl ">
           <h2 className="text-3xl font-bold mb-4">Content Section</h2>
           <p className="text-neutral-300 mb-6">
             This layout demonstrates a different content distribution while

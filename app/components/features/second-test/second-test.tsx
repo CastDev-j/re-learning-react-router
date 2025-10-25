@@ -13,7 +13,7 @@ const SecondTest = () => {
         </div>
 
         <div
-          className="col-span-12 lg:col-span-7 p-8 rounded-2xl shadow-lg"
+          className="col-span-12 lg:col-span-7 p-8 rounded-2xl "
           style={{ viewTransitionName: "feature-card" }}
         >
           <h2 className="text-3xl font-bold text-white mb-4">
@@ -41,7 +41,7 @@ const SecondTest = () => {
 
         <div className="col-span-6 lg:col-span-4 flex items-center justify-center">
           <div
-            className="w-40 h-40 bg-blue-500 rounded-3xl shadow-lg transform rotate-12"
+            className="w-40 h-40 bg-blue-500 rounded-3xl  transform rotate-12"
             style={{ viewTransitionName: "floating-element" }}
           />
         </div>

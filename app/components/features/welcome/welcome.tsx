@@ -14,7 +14,7 @@ export function Welcome() {
           </p>
         </div>
 
-        <div className="col-span-12 lg:col-span-6 p-8 rounded-2xl shadow-lg">
+        <div className="col-span-12 lg:col-span-6 p-8 rounded-2xl">
           <h2 className="text-2xl font-bold mb-4">First Layout</h2>
           <p className="text-neutral-300 mb-6">
             A clean and modern design with smooth transitions between views.
@@ -31,7 +31,7 @@ export function Welcome() {
           </div>
         </div>
 
-        <div className="col-span-12 lg:col-span-6 bg-neutral-800 p-8 rounded-2xl shadow-lg">
+        <div className="col-span-12 lg:col-span-6 bg-neutral-800 p-8 rounded-2xl">
           <h2 className="text-2xl font-bold text-white mb-4">Second Layout</h2>
           <p className="text-neutral-300 mb-6">
             Dark theme with elegant transitions and modern design patterns.

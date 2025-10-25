@@ -67,7 +67,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <p className="col-span-full pt-4 border-t border-neutral-800 text-xs text-center text-neutral-500">
+        <p className="pt-4 border-t border-neutral-800 text-xs text-center text-neutral-500 col-span-2">
           © {new Date().getFullYear()} {SITE_NAME}
         </p>
       </div>

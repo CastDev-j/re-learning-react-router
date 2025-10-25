@@ -14,6 +14,7 @@ export default function Header() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <NavLink
+              viewTransition
               to="/"
               className="p-2 rounded-md flex items-center gap-2 hover:bg-neutral-800 transition-all"
             >
@@ -24,6 +25,7 @@ export default function Header() {
             <nav className="hidden md:flex items-center gap-6">
               {routes.map((r) => (
                 <NavLink
+                  viewTransition
                   key={r.path}
                   to={r.path}
                   className={({ isActive }) =>
@@ -73,6 +75,7 @@ export default function Header() {
         <div className="flex-1 p-4 space-y-2 overflow-y-auto">
           {routes.map((r) => (
             <NavLink
+              viewTransition
               key={r.path}
               to={r.path}
               onClick={() => setOpen(false)}

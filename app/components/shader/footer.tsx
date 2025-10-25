@@ -26,6 +26,7 @@ export default function Footer() {
             {routes.map((r) => (
               <li key={r.path}>
                 <NavLink
+                  viewTransition
                   to={r.path}
                   className={({ isActive }) =>
                     cn(
